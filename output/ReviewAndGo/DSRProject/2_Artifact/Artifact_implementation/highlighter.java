@@ -1,0 +1,6 @@
+highlighter functionality
+canvas functionality
+reference finder functionality
+comment gradation functionality
+comment gradation functionality
+boiler plate template functionality

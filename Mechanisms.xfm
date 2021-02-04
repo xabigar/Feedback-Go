@@ -1,0 +1,286 @@
+<cm:consulmodel xmlns:cm="http://www.pure-systems.com/consul/model" cm:id="iMsRM-yAPAIfk81SO" cm:version="1.5" cm:type="ps:fm">
+  <cm:head>
+    <cm:properties>
+      <cm:property cm:id="i5JPfAUS57d9KrHyh" cm:type="ps:string" cm:invisible="true" cm:name="ps:name">
+        <cm:constant cm:id="i2Y3bwfNSXIgVClNC" cm:type="ps:string">Mechanisms</cm:constant>
+      </cm:property>
+      <cm:property cm:id="iV98cfkZxIp5OZd16" cm:type="ps:string" cm:invisible="true" cm:name="ps:author">
+        <cm:constant cm:id="ijYnL-6XqqhUtdrY5" cm:type="ps:string">Xabi</cm:constant>
+      </cm:property>
+      <cm:property cm:id="iYxYa_7iLDMaefBcJ" cm:type="ps:string" cm:invisible="true" cm:name="ps:version">
+        <cm:constant cm:id="ihSqAtJI-7nxHpfWC" cm:type="ps:string">1.0</cm:constant>
+      </cm:property>
+      <cm:property cm:id="i5iBILMbenjjqL95W" cm:type="ps:datetime" cm:invisible="true" cm:name="ps:created">
+        <cm:constant cm:id="iKDQw51x5aV028mly" cm:type="ps:datetime">2020-12-07T10:52:17.683Z</cm:constant>
+      </cm:property>
+      <cm:property cm:id="isDIaOplLQCWm9oEa" cm:type="ps:mimetype" cm:invisible="true" cm:name="ps:DescriptionType">
+        <cm:constant cm:id="iu7q-Y6AvhbZ9ypYl" cm:type="ps:mimetype">text/html</cm:constant>
+      </cm:property>
+    </cm:properties>
+  </cm:head>
+  <cm:elements cm:rootid="ixjQ0hmOPLWNI6VYF">
+    <cm:element cm:id="ixjQ0hmOPLWNI6VYF" cm:name="Mechanism" cm:type="ps:feature" cm:class="ps:feature" cm:default="on">
+      <cm:relations cm:id="iCPQGZiWsMLuMdqYX" cm:class="ps:children">
+        <cm:relation cm:id="idlbixyGSGp5JLZVX" cm:type="ps:mandatory">
+          <cm:target cm:id="iag8dPs8-YSh5vRMl">./i-UjsJIj-ILEDIwDD</cm:target>
+        </cm:relation>
+        <cm:relation cm:id="i_3LtaAo81GatipYP" cm:type="ps:optional" cm:range="[0,n]">
+          <cm:target cm:id="i5BIgqG2V5WecdU5U">./i5P8rrvYGSChomRxx</cm:target>
+          <cm:target cm:id="i5FxAIMEATmvbfc0G">./iBUt9haUf0XJvjnzN</cm:target>
+          <cm:target cm:id="i5E8otWHbqwhw2HxB">./iIa6XwOnaY67MLcul</cm:target>
+          <cm:target cm:id="ifOqcTvONuvUUs_mC">./ixeMY2-V0gZBQE5GH</cm:target>
+          <cm:target cm:id="iPEnnOh9NrrYU_sLP">./iOWSwVXy_h-N8dddz</cm:target>
+          <cm:target cm:id="isDCub0FAW9k_ax21">./iGAD6DtKE3oKxNPk-</cm:target>
+          <cm:target cm:id="ieK08rh_Rdv3bZIhW">./iQoTM2qT8bg2G7DaN</cm:target>
+          <cm:target cm:id="iAzX0xrg_gRjs2vmV">./iHwrl0ZTzyAX2iVs-</cm:target>
+          <cm:target cm:id="iB-6WszKK4TZPC94v">./iLa0Qbf0IUazByNQ0</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="ixDtqTP_HQVac-Rsh" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="i0GkKBMwD8jjUMy96" cm:type="ps:string">Xabi</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iLmr5dvEd_QGRZjD9" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iHHUKJkn9UXwV938v" cm:type="ps:datetime">2020-12-07T10:52:17.683Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iOKnKKI2P78poBXRz" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="i5BLes7UTFHlyW3zq" cm:type="ps:string">Xabi</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ioWl60_qk5B4P80DF" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iTCc1X_U_li3PKNaC" cm:type="ps:datetime">2020-12-17T11:15:26.789Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="i-UjsJIj-ILEDIwDD" cm:name="Highlighter" cm:type="ps:feature" cm:class="ps:feature" cm:default="on">
+      <cm:relations cm:id="iRo_DwFOhcLlShwuI" cm:class="ps:parents">
+        <cm:relation cm:id="i-gBBb0U7PBXzx0-h" cm:type="ps:parent">
+          <cm:target cm:id="i6RDL63--bQNgx02z">./ixjQ0hmOPLWNI6VYF</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iwcIu9sp222Yg0Xqr" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iQljI_6qleI83AB5t" cm:type="ps:string">Xabi</cm:constant>
+        </cm:property>
+        <cm:property cm:id="imm4pUILNPepWqdBY" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iAJcrdUhT59gy2JKU" cm:type="ps:datetime">2020-12-07T10:53:04.867Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i-O42fLCXmojpdXOw" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iJv-et_fEmw3pyH-X" cm:type="ps:string">Xabi</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ifCPZN9LEfoEclB6o" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iiRlIL-5QyNSr7t7o" cm:type="ps:datetime">2020-12-17T12:20:09.155Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="i5P8rrvYGSChomRxx" cm:name="Canvas" cm:type="ps:feature" cm:class="ps:feature">
+      <cm:relations cm:id="iIsgIJ1t_5L2Dwa0O" cm:class="ps:parents">
+        <cm:relation cm:id="i7LKCY2KQk8VeRtS_" cm:type="ps:parent">
+          <cm:target cm:id="iW3YfwQczNL7LWHL0">./ixjQ0hmOPLWNI6VYF</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iC4-TS-uELLqOKYC-" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iEzxDlDHdeRWsIk8s" cm:type="ps:string">Xabi</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iGhUGRr7HC1bIV0V-" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="isz0JX7nwWra_YwD5" cm:type="ps:datetime">2020-12-07T10:53:15.451Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ijDKW_A9fiiC3MzSR" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iMXJvvyIkuuWSmf5p" cm:type="ps:string">Xabi</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iqAMziYbn91VE-9Yt" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="i8iAtfrekYW5T_hF2" cm:type="ps:datetime">2020-12-17T12:19:56.810Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="iBUt9haUf0XJvjnzN" cm:name="ReferenceFinder" cm:type="ps:feature" cm:class="ps:feature">
+      <cm:relations cm:id="i578flTO9IXEA73Hp" cm:class="ps:parents">
+        <cm:relation cm:id="iVmOKnZW9dv6DZNcQ" cm:type="ps:parent">
+          <cm:target cm:id="izXsDhfTYwmM11R7a">./ixjQ0hmOPLWNI6VYF</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="i9McvDsdnurIVHn5G" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="ilGPtwU6X0rNXVfoy" cm:type="ps:string">Xabi</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i4364hMMwLJOZIHA6" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iglIrHkxs7t0KSR7W" cm:type="ps:datetime">2020-12-07T10:53:31.251Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="itEJJqb9bM3YS4uqa" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iGnK9UwQctq2is0ZN" cm:type="ps:string">Xabi</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iJDuohQPg2id-wjqD" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="ipFptZqj0aQ_wskC4" cm:type="ps:datetime">2020-12-17T12:20:01.388Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="izhirAE_aNlCIOZTY" cm:mimetype="text/plain" cm:encoding="utf-8">Reference finder</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="iIa6XwOnaY67MLcul" cm:name="CommentGradation" cm:type="ps:feature" cm:class="ps:feature">
+      <cm:relations cm:id="iso3--XXYorB9UiIS" cm:class="ps:parents">
+        <cm:relation cm:id="ifvW_3Jx31cL3tdon" cm:type="ps:parent">
+          <cm:target cm:id="iuiJHpc8mMfBJ9bp2">./ixjQ0hmOPLWNI6VYF</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="ihAyYBsQsZRlCSQ_p" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iKdstsl5MPepQZOlk" cm:type="ps:string">Xabi</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iWVTHfy-uqzGqC3ZP" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="i0LIjUDTr1l5VuCLJ" cm:type="ps:datetime">2020-12-07T10:53:46.395Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ioiHV7SvZMJzTWtUq" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="icGdmK-yZqnZDjLFv" cm:type="ps:string">Xabi</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iWDGCOzbv20KpNmm9" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iaMhcG0bu2WKSumbA" cm:type="ps:datetime">2020-12-17T12:20:04.740Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="iWrQkX4IQ7r_l7B1T" cm:mimetype="text/plain" cm:encoding="utf-8">Comment gradation</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="ixeMY2-V0gZBQE5GH" cm:name="SentimentAnalysis" cm:type="ps:feature" cm:class="ps:feature">
+      <cm:relations cm:id="iMfSZdAO3TLSQkutv" cm:class="ps:parents">
+        <cm:relation cm:id="i2fPub6N42I8bHU4X" cm:type="ps:parent">
+          <cm:target cm:id="inQHeWgxg2kQKc0zW">./ixjQ0hmOPLWNI6VYF</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="i6xy7mwnaiy4hkdzF" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="ihieyGYTbUtHc4jwG" cm:type="ps:string">Xabi</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ixE5ldyIsV-SvWOZd" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="i61fHeUTOHbKJcG2h" cm:type="ps:datetime">2020-12-07T10:54:03.466Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iU_0gjZMFumezEDsa" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="ibx8hCp6OnmvhgyUO" cm:type="ps:string">Xabi</cm:constant>
+        </cm:property>
+        <cm:property cm:id="idahQg9C5VY9sfQFb" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="i3HyuQnTNfWqBLdgt" cm:type="ps:datetime">2020-12-07T10:56:18.546Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="i4yPqGs8aJiIwrsai" cm:mimetype="text/plain" cm:encoding="utf-8">Sentiment analysis</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="iOWSwVXy_h-N8dddz" cm:name="Typo" cm:type="ps:feature" cm:class="ps:feature">
+      <cm:relations cm:id="iYxCcfUluLwNLc9xL" cm:class="ps:parents">
+        <cm:relation cm:id="i7I6TNhKEBntLV2mT" cm:type="ps:parent">
+          <cm:target cm:id="i5nu_rwfs89BNRrFs">./ixjQ0hmOPLWNI6VYF</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iV0dSECvgi2NY3YJF" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="ipV-TTV3GlQj6lQfX" cm:type="ps:string">Xabi</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i84lynBzv5vuL6Y3O" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="i4ns58sCeQd1Tr78B" cm:type="ps:datetime">2020-12-07T10:54:18.812Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iMdYj1wnCmGhsDlLz" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="ikAMCJtPgePZpQKep" cm:type="ps:string">Xabi</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ivT4SzXwyFYZianp_" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="i0y7KSBROZFPGDvTw" cm:type="ps:datetime">2020-12-07T10:55:23.375Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="iGAD6DtKE3oKxNPk-" cm:name="BoilerPlateTemplate" cm:type="ps:feature" cm:class="ps:feature">
+      <cm:relations cm:id="ig2lgQcljJOyXw9MC" cm:class="ps:parents">
+        <cm:relation cm:id="i-J5CjbMjCZy9yCT5" cm:type="ps:parent">
+          <cm:target cm:id="i9y3V3Im6PkkeRvxM">./ixjQ0hmOPLWNI6VYF</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="i1NJxNF6zmBsUCtB3" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iXRZkiF0JJnCK_4UD" cm:type="ps:string">Xabi</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iRCJxF76w0SDYfenZ" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iyH9Q6a4yRF29lMA1" cm:type="ps:datetime">2020-12-07T10:54:33.026Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="intc1Q37O7a9dprfl" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="i5xoZCzIfe6BJgl1N" cm:type="ps:string">Xabi</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iNauxlEGymAHQUnJ7" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="i0e8UCgw1-weSYmIF" cm:type="ps:datetime">2020-12-07T10:56:31.133Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="iUBlv5CTYM1HBO968" cm:mimetype="text/plain" cm:encoding="utf-8">Boiler plate template</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="iQoTM2qT8bg2G7DaN" cm:name="ResumptionFacility" cm:type="ps:feature" cm:class="ps:feature">
+      <cm:relations cm:id="ij1V9CkkhNSZvb9s9" cm:class="ps:parents">
+        <cm:relation cm:id="ikkuvywnAEF1kOMak" cm:type="ps:parent">
+          <cm:target cm:id="iOR86NEibxisA5Ewp">./ixjQ0hmOPLWNI6VYF</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="i0TQM3j9VChyLFxvS" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="i0dzDxjiT6dvspgkQ" cm:type="ps:string">Xabi</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i9jFVauROTLIa-VFZ" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iXhPP_CCV2dyNr-Ik" cm:type="ps:datetime">2020-12-07T10:54:46.909Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iTaA-l-bw0uffr9gT" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iSySUoB8U5zuLJ6X6" cm:type="ps:string">Xabi</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i3R73J9KIR4P5_uUR" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="i0GKx7YvzJM-OJRKB" cm:type="ps:datetime">2020-12-07T10:56:38.075Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="ippc9M2OHHTh5Ek7c" cm:mimetype="text/plain" cm:encoding="utf-8">Resumption facility</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="iHwrl0ZTzyAX2iVs-" cm:name="ConceptHandling" cm:type="ps:feature" cm:class="ps:feature">
+      <cm:relations cm:id="iOMFt2plPhMegBO5D" cm:class="ps:parents">
+        <cm:relation cm:id="iWcuXG6u8W-E_vyQ8" cm:type="ps:parent">
+          <cm:target cm:id="ibZ3i9xtv2Vwnf-dT">./ixjQ0hmOPLWNI6VYF</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iQa7pl5btaXoiXmax" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="i-F853WQvh21HXWFB" cm:type="ps:string">Xabi</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iXn9q9pwcFP5Sr43h" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iXJgLCMQ1RZLi_Fz_" cm:type="ps:datetime">2020-12-07T10:54:57.164Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i6-k8VpUADColIAYY" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iy7UDL1fC1X-lPOg3" cm:type="ps:string">Xabi</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iB1l5WC0tUnOByNe_" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="i9nHb0QRavC-0MvUC" cm:type="ps:datetime">2020-12-07T10:56:48.701Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="ilrfRLXnYlnaOchmT" cm:mimetype="text/plain" cm:encoding="utf-8">Concept handling</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+    <cm:element cm:id="iLa0Qbf0IUazByNQ0" cm:name="RelationHandling" cm:type="ps:feature" cm:class="ps:feature">
+      <cm:relations cm:id="iFpbHKHj32bazv57K" cm:class="ps:parents">
+        <cm:relation cm:id="iem-jwKBnUDSxmY4W" cm:type="ps:parent">
+          <cm:target cm:id="iA1crekmm5mr_RP7a">./ixjQ0hmOPLWNI6VYF</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="i5JpV_Tq9piy2p5YJ" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="i0qOuoca5gl6JNzvS" cm:type="ps:string">Xabi</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iYCsS1KKoUi-fEj59" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="i2Ef6FVS06qGsYwLe" cm:type="ps:datetime">2020-12-07T10:55:08.319Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iLOAZBSAi3ytCyzJv" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iqXBaO3E8FQgDKPc7" cm:type="ps:string">Xabi</cm:constant>
+        </cm:property>
+        <cm:property cm:id="imP1205oaJaJyZZF3" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iY9Bite2PAHsZmEX8" cm:type="ps:datetime">2020-12-07T11:01:51.215Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+      <cm:vname>
+        <cm:mimedesc cm:id="iHyWao0ChBSYlvY9d" cm:mimetype="text/plain" cm:encoding="utf-8">Relation handling</cm:mimedesc>
+      </cm:vname>
+    </cm:element>
+  </cm:elements>
+</cm:consulmodel>

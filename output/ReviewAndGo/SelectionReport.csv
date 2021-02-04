@@ -1,0 +1,27 @@
+Element;Is in Variant
+
+Context
+
+PeerReview;true
+ReviewFrameworkTuning;true
+MeritPonderation;true
+ContructiveFeedback;true
+ReportWritingSpeedingUp;false
+InstructionalFeedback;false
+CaptureReadingEssence;false
+ExtractRelevantConcepts;false
+ExtractRelevantRelationships;false
+AssignmentSpeedUp;false
+
+Mechanisms
+
+Highlighter;true
+Canvas;true
+ReferenceFinder;true
+CommentGradation;true
+SentimentAnalysis;true
+Typo;false
+BoilerPlateTemplate;true
+ResumptionFacility;true
+ConceptHandling;false
+RelationHandling;false
